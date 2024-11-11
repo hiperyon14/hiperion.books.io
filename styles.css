@@ -1,0 +1,198 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif;
+    color: #F0E1C9;
+    background-image: url('fondo.jpg'); /* Fondo de biblioteca */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #2E1D17;
+}
+
+/* Tamaño fijo para todas las imágenes decorativas */
+.decor-left img,
+.decor-right img,
+.corner-decor img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.author-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Forma circular para las imágenes de autor */
+}
+
+/* Encabezado principal */
+.header {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 3px solid #C83636;
+}
+
+/* Decoración de esquinas en el encabezado */
+.decor-left,
+.decor-right {
+    position: absolute;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.decor-left {
+    left: 10px;
+}
+
+.decor-right {
+    right: 10px;
+}
+
+.main-title {
+    color: #F5D4C2;
+    font-size: 3.5em;
+    font-family: 'Papyrus', fantasy;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #C83636;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.link-bajo {
+    display: inline-block;
+    padding: 12px 25px;
+    color: #F0E1C9;
+    background-color: #C83636;
+    border-radius: 8px;
+    border: 2px solid #F5D4C2;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-bajo:hover {
+    background-color: #F0E1C9;
+    color: #C83636;
+}
+
+/* Estilos para el buscador */
+.buscador {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#genre-search {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #C83636;
+    background-color: #F5D4C2;
+    color: #2E1D17;
+}
+
+#genre-search:focus {
+    outline: none;
+    border-color: #C83636;
+    background-color: #F0E1C9;
+}
+
+/* Sección "Conoce Más" */
+.conoce-mas {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #F0E1C9;
+    text-align: center;
+}
+
+.conoce-mas h2 {
+    font-size: 2.5em;
+    color: #F5D4C2;
+    margin-bottom: 40px;
+}
+
+/* Estilos de cada autor */
+.author-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(80, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.author-info {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.author-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #F5D4C2;
+}
+
+.author-info p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #F0E1C9;
+}
+
+.genre-box {
+    margin-bottom: 15px;
+}
+
+.genre {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #C83636;
+    color: #F5D4C2;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.book-link {
+    font-size: 1.2em;
+    color: #C83636;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.book-link:hover {
+    color: #F5D4C2;
+}
+
+.corner-decor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.top-left {
+    top: -10px;
+    left: -10px;
+}
+
+.bottom-right {
+    bottom: -10px;
+    right: -10px;
+}

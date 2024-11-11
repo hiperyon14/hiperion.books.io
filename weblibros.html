@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Librería de Gensokyo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado principal con decoración de libros y rosas -->
+    <header class="header">
+        <div class="decor-left"><img src="css/sion.png" alt="decoracion libro"></div>
+        <h1 class="main-title">La Librería de Gensokyo</h1>
+        <p class="subtitle">Una colección mágica de los mundos de Touhou</p>
+        <a href="#conoce-mas" class="link-bajo">Conoce Más</a>
+        <div class="decor-right"><img src="css/momiji.png" alt="decoracion rosa"></div>
+    </header>
+
+    <!-- Buscador de géneros -->
+    <section id="buscador" class="buscador">
+        <label for="genre-search">Buscar género:</label>
+        <input type="text" id="genre-search" placeholder="Escribe un género...">
+    </section>
+
+    <!-- Sección "Conoce Más" -->
+    <section id="conoce-mas" class="conoce-mas">
+        <h2>Conoce Más</h2>
+        
+        <!-- Tarjeta de autor 1 con decoración de rosas -->
+        <div class="author-section" data-genres="acción aventura fantasía">
+            <div class="corner-decor top-left"><img src="css/koishi.png" alt="decoracion rosa"></div>
+            <img src="css/hiperion.jpg" alt="Autor 1" class="author-image">
+            <div class="author-info">
+                <h3>Hiperion</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nisi nec ligula eleifend venenatis.</p>
+                <div class="genre-box">
+                    <span class="genre">Acción</span>
+                    <span class="genre">Aventura</span>
+                    <span class="genre">Fantasía</span>
+                </div>
+                <a href="https://www.wattpad.com/story/369567249-un-est%C3%BApido-en-un-mundo-de-locas" class="book-link">Ver libro</a>
+            </div>
+            <div class="corner-decor bottom-right"><img src="css/junko.png" alt="decoracion rosa"></div>
+        </div>
+
+        <!-- Tarjeta de autor 2 -->
+        <div class="author-section" data-genres="suspenso drama misterio">
+            <div class="corner-decor top-left"><img src="css/yukari.jpg" alt="decoracion rosa"></div>
+            <img src="css/lema.webp" alt="Autor 2" class="author-image">
+            <div class="author-info">
+                <h3>Lema</h3>
+                <p>Escritor de historias que toman ciertas ideas fuera de la zona de confort de la comunidad y les trato de dar un desarrollo lo mas cercano al posible aun con ciertas libertades</p>
+                <div class="genre-box">
+                    <span class="genre">Suspenso</span>
+                    <span class="genre">Drama</span>
+                    <span class="genre">Misterio</span>
+                </div>
+                <a href="https://www.wattpad.com/user/Lema023" class="book-link">Ver libro</a>
+            </div>
+            <div class="corner-decor bottom-right"><img src="css/sumireko.png" alt="decoracion rosa"></div>
+        </div>
+
+        <!-- Tarjeta de autor 3 -->
+        <div class="author-section" data-genres="ciencia ficción aventura romance">
+            <div class="corner-decor top-left"><img src="https://example.com/rosa-small.png" alt="decoracion rosa"></div>
+            <img src="https://via.placeholder.com/150" alt="Autor 3" class="author-image">
+            <div class="author-info">
+                <h3>Saori</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nisi nec ligula eleifend venenatis.</p>
+                <div class="genre-box">
+                    <span class="genre">Ciencia ficción</span>
+                    <span class="genre">Aventura</span>
+                    <span class="genre">Romance</span>
+                </div>
+                <a href="#" class="book-link">Ver libro</a>
+            </div>
+            <div class="corner-decor bottom-right"><img src="https://example.com/rosa-small.png" alt="decoracion rosa"></div>
+        </div>
+
+        <div class="author-section" data-genres="ciencia ficción aventura romance">
+            <div class="corner-decor top-left"><img src="css/yuuka.webp" alt="decoracion rosa"></div>
+            <img src="css/spark.webp" alt="Autor 3" class="author-image">
+            <div class="author-info">
+                <h3>Spark</h3>
+                <p>Mis fics uso OC en X franquicia, respetando algo del canon y metiendo algunas cosas hechas por mi (y Harem)</p>
+                <div class="genre-box">
+                    <span class="genre">Ciencia ficción</span>
+                    <span class="genre">Aventura</span>
+                    <span class="genre">Romance</span>
+                    <span class="genre">comedia</span>
+                    <span class="genre">Drama</span>
+                    <span class="genre">Harem</span>
+                </div>
+                <a href="https://www.wattpad.com/user/XiaoOgami" class="book-link">Ver libro</a>
+            </div>
+            <div class="corner-decor bottom-right"><img src="css/yuuka.webp" alt="decoracion rosa"></div>
+        </div>
+        
+        <div class="author-section" data-genres="ciencia ficción aventura romance">
+            <div class="corner-decor top-left"><img src="https://example.com/rosa-small.png" alt="decoracion rosa"></div>
+            <img src="https://via.placeholder.com/150" alt="Autor 3" class="author-image">
+            <div class="author-info">
+                <h3>Yukuri</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nisi nec ligula eleifend venenatis.</p>
+                <div class="genre-box">
+                    <span class="genre">Ciencia ficción</span>
+                    <span class="genre">Aventura</span>
+                    <span class="genre">Romance</span>
+                </div>
+                <a href="#" class="book-link">Ver libro</a>
+            </div>
+            <div class="corner-decor bottom-right"><img src="https://example.com/rosa-small.png" alt="decoracion rosa"></div>
+        </div>
+        
+        <div class="author-section" data-genres="ciencia ficción aventura romance">
+            <div class="corner-decor top-left"><img src="https://example.com/rosa-small.png" alt="decoracion rosa"></div>
+            <img src="https://via.placeholder.com/150" alt="Autor 3" class="author-image">
+            <div class="author-info">
+                <h3>Ron</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nisi nec ligula eleifend venenatis.</p>
+                <div class="genre-box">
+                    <span class="genre">Ciencia ficción</span>
+                    <span class="genre">Aventura</span>
+                    <span class="genre">Romance</span>
+                </div>
+                <a href="#" class="book-link">Ver libro</a>
+            </div>
+            <div class="corner-decor bottom-right"><img src="https://example.com/rosa-small.png" alt="decoracion rosa"></div>
+        </div>
+        
+    </section>
+
+    <script>
+        // Filtrar libros por género usando el buscador
+        document.getElementById('genre-search').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const authors = document.querySelectorAll('.author-section');
+
+            authors.forEach(function(author) {
+                const genres = author.getAttribute('data-genres').toLowerCase();
+                if (genres.includes(searchTerm)) {
+                    author.style.display = 'block'; // Mostrar autor si el género coincide
+                } else {
+                    author.style.display = 'none'; // Ocultar autor si no coincide
+                }
+            });
+        });
+    </script>
+</body>
+</html>
